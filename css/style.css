@@ -1,0 +1,131 @@
+
+/* header */
+
+header{
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    background-color: rgba(0,0, 0, .5);
+}
+
+/* 
+navbar
+*/
+
+.dropdown1:hover .menu1{
+    display: block;
+}
+.dropdown2:hover .menu2{
+    display: block;
+}
+
+.menu2{
+    left: 100%;
+}
+
+.nav-link,.navbar-brand{
+    color: #fff;
+}
+
+.nav-link{
+    position: relative;
+    padding-right: 0 !important; 
+     padding-left: 0 !important;
+}
+
+.navbar-nav{
+    width: 30%;
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    transition: width 1s;
+}
+
+.nav-link:hover::before{
+    width: 90%;
+}
+
+.box img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.icons{
+    background-image: url(../img/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.layer{
+    background-color: rgba(0, 119, 255,.5);
+    padding:60px 0px;
+}
+
+.icons i{
+    width: 70px;
+    height: 70px;
+    display: flex !important;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+
+/* slider */
+
+.slider{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* 
+
+*/
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem red;
+}
+
+
+/* 
+child/
+ele
+padding
+border
+outline
+margin
+*/
+
+
+
+.child{
+    width: 25%;
+    margin: 30px auto;
+    outline:  unset;
+
+border:unset
+}
+
+
+
+
